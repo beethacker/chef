@@ -1,0 +1,61 @@
+body {
+	background: #aaaaaa;
+}
+
+div#container{
+	background: #ffffff;
+	position:   relative;
+	margin:     0 auto;
+  	width:      800px;
+  	overflow:   auto;
+}
+
+/* Menu bar will go on left */
+div#menu{
+	float:    left;	
+	position: relative;
+	padding:  5px;
+	margin:   10px;
+	width:    140px;
+	height:   400px;
+	/*border:   solid blue 1px;*/
+}
+
+div#header{	
+	/*border: solid yellow 1px;*/
+	position: 	relative;
+	left: 		0px;
+	top: 		-24px; /* Why?! */
+	width: 			  800px;
+	height: 		  200px;
+	background-image: url("images/Header2.jpg");
+	/*background-color: red;*/
+	//border: solid white 1px;
+	margin: 0;
+}
+
+div#header h1{
+	text-indent: 	-9999px;
+	text-align: 	center;
+}
+
+/* Each page will define its own content div */
+div#content{
+	width: 600px;
+	float: right;
+	/*border: solid yellow 3px;*/
+	margin-right: 30px;
+}
+
+iframe {
+	//background-color: red;
+	padding-bottom: 30px;	
+}
+
+div#about{
+	height: 600px;
+}
+
+/* Footer */
+div#footer{
+}
